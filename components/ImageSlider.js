@@ -34,7 +34,8 @@ const ImageSlider = () => {
               src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/6685844a8bbe58d2fa23eb9d_chart1.svg"
               width={400} // Set the width according to your needs
               height={600} // Set the height according to your needs
-              layout="responsive" // Optional: Makes the image responsive
+              layout="responsive"
+              alt="image" // Optional: Makes the image responsive
             />
           </div>
         </SwiperSlide>
@@ -42,6 +43,7 @@ const ImageSlider = () => {
           <div className="md:w-[300px] md:h-[400px]">
             <Image
               src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/668584b88ef1d9cb14f4a861_chart2.svg"
+              alt="image"
               width={400} // Set the width according to your needs
               height={600} // Set the height according to your needs
               layout="responsive" // Optional: Makes the image responsive
@@ -52,6 +54,7 @@ const ImageSlider = () => {
           <div className="md:w-[300px] md:h-[400px]">
             <Image
               src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/668584b88ef1d9cb14f4a861_chart2.svg"
+              alt="image"
               width={400} // Set the width according to your needs
               height={600} // Set the height according to your needs
               layout="responsive" // Optional: Makes the image responsive
@@ -62,6 +65,7 @@ const ImageSlider = () => {
           <div className="md:w-[300px] md:h-[400px]">
             <Image
               src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/6685844a8bbe58d2fa23eb9d_chart1.svg"
+              alt="image"
               width={400} // Set the width according to your needs
               height={600} // Set the height according to your needs
               layout="responsive" // Optional: Makes the image responsive
@@ -72,6 +76,7 @@ const ImageSlider = () => {
           <div className="md:w-[300px] md:h-[400px]">
             <Image
               src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/668584b88ef1d9cb14f4a861_chart2.svg"
+              alt="image"
               width={400} // Set the width according to your needs
               height={600} // Set the height according to your needs
               layout="responsive" // Optional: Makes the image responsive
@@ -82,6 +87,7 @@ const ImageSlider = () => {
           <div className="md:w-[300px] md:h-[400px]">
             <Image
               src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/668584b7a95ce51d35c0784c_chart3.svg"
+              alt="image"
               width={400} // Set the width according to your needs
               height={600} // Set the height according to your needs
               layout="responsive" // Optional: Makes the image responsive
