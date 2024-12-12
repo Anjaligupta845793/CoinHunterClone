@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="bg-black text-white">
       <div className="max-w-[1260px] mx-auto md:flex flex   justify-between py-10 items-center md:py-10">
-        <h1 className="px-3 md:text-3xl text-4xl">CoinHunter</h1>
+        <h1 className="pl-8 md:pt-0 pt-5 md:text-3xl text-xl">CoinHunter</h1>
         <ul className="md:flex hidden gap-7 border border-gray-800 rounded-3xl px-6 p-2">
           <Link href="/Home">Home</Link>
           <Link href="/Product">Product</Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
             log in
           </button>
         </div>
-        <div className="md:hidden flex mr-4">
+        <div className="md:hidden flex mr-4 pt-5">
           <IoMenu className=" " size={30} onClick={() => setnav(!nav)} />
         </div>
       </div>
