@@ -77,9 +77,9 @@ const ImageSlider = () => {
             <Image
               src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/668584b88ef1d9cb14f4a861_chart2.svg"
               alt="image"
-              width={400} // Set the width according to your needs
-              height={600} // Set the height according to your needs
-              layout="responsive" // Optional: Makes the image responsive
+              width={400}
+              height={600}
+              layout="responsive"
             />
           </div>
         </SwiperSlide>
@@ -88,9 +88,9 @@ const ImageSlider = () => {
             <Image
               src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/668584b7a95ce51d35c0784c_chart3.svg"
               alt="image"
-              width={400} // Set the width according to your needs
-              height={600} // Set the height according to your needs
-              layout="responsive" // Optional: Makes the image responsive
+              width={400}
+              height={600}
+              layout="responsive"
             />
           </div>
         </SwiperSlide>
