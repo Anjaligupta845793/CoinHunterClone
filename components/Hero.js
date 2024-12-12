@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-color-black text-white py-28 ">
-      <div className="max-w-[1260px] mx-auto grid md:grid-cols-[60%_40%] px-4 md:py-16  bg-gradient-to-br from-black via-black border-r-1 border-b-1 border-gray-600 rounded-lg to-blue-500">
+    <div className="bg-color-black text-white  ">
+      <div className="max-w-[1260px] relative mx-auto grid md:grid-cols-[60%_40%] px-4 md:py-28  bg-gradient-to-br from-black via-black border-r-1 border-b-1 border-gray-600 rounded-lg to-blue-500">
         <div className="">
           <h1 className="md:text-6xl text-4xl  font-bold">
             Discover the Next Crypto Gem Provided By AI
@@ -20,14 +20,14 @@ const Hero = () => {
             start for free
           </button>
         </div>
-        <div className=" relative ">
+
+        <div className="py-10">
           <Image
             src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/66956f1253ac1ac1658ef296_gems%20trasparenza-p-1600.png"
-            alt="Gems Transparency"
-            width={400}
-            height={800}
-            // Set the height according to your needs
-            sizes="(min-width: 808px) 50vw, 100vw"
+            alt="image"
+            width={300}
+            height={600}
+            className="mx-auto"
           />
         </div>
       </div>

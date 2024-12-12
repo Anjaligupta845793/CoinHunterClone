@@ -7,6 +7,7 @@ import BiggWin from "@/components/BiggWin";
 import FCards from "@/components/FCards";
 import CryptoCards from "@/components/CryptoCards";
 import Premium from "@/components/Premium";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <FCards />
       <CryptoCards />
       <Premium />
+      <FAQ />
     </div>
   );
 }
