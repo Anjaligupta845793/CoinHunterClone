@@ -23,7 +23,7 @@ const Features = () => {
                 "radial-gradient(circle, rgba(59,130,246,0.5) 1%, black 100%)",
             }}
           ></div>
-          <div className="max-w-[450px] mx-auto px-5 text-center py-10 absolute md:left-[350px] md:top-[60px] top-[55px] z-20 left-[-10px] ">
+          <div className="max-w-[450px] mx-auto px-10 text-center  py-10 absolute md:left-[350px] md:top-[60px] top-[55px] z-20 left-[-10px] ">
             <div className="w-[100px] h-[100px] mx-auto ">
               <Image
                 src={item.image}

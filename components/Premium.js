@@ -7,7 +7,7 @@ const Premium = () => {
     <div className="bg-black text-white py-20">
       <div className="max-w-[1260px] mx-auto px-5 mt-10">
         <div className="max-w-[500px] mx-auto  text-center py-20">
-          <h1 className="md:text-5xl text-3xl ">
+          <h1 className="md:text-5xl text-4xl font-bold ">
             Choose Plan That’s Right ForYou
           </h1>
           <p className="text-2xl pt-10">

@@ -8,6 +8,8 @@ import FCards from "@/components/FCards";
 import CryptoCards from "@/components/CryptoCards";
 import Premium from "@/components/Premium";
 import FAQ from "@/components/FAQ";
+import Signup from "@/components/Signup";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <CryptoCards />
       <Premium />
       <FAQ />
+      <Signup />
+      <Footer />
     </div>
   );
 }
