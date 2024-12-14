@@ -1,6 +1,7 @@
 "client side";
 import React from "react";
 import ImageSlider from "./ImageSlider";
+import Imagi from "./Imagi";
 
 const BiggWin = () => {
   return (
@@ -11,7 +12,7 @@ const BiggWin = () => {
             <h1 className="md:text-6xl py-10 text-4xl text-center">
               Our Biggest Win
             </h1>
-            <ImageSlider />
+            <Imagi />
           </div>
         </div>
       </div>

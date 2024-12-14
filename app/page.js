@@ -12,6 +12,7 @@ import Signup from "@/components/Signup";
 import Footer from "@/components/Footer";
 
 import Slidy from "@/components/Slidy";
+import Imagi from "@/components/Imagi";
 
 export default function Home() {
   return (

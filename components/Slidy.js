@@ -60,12 +60,12 @@ const Slidy = () => {
                   />
                 </div>
                 <div className="flex flex-col justify-between md:gap-10 gap-5">
-                  <div className=" font-bold">
+                  <div className=" font-bold text-gray-400">
                     <p>{item.discription}</p>
                   </div>
                   <div>
                     <p className="">{item.name}</p>
-                    <p>{item.date}</p>
+                    <p className="text-[13px]">{item.date}</p>
                   </div>
                 </div>
               </div>
@@ -79,6 +79,7 @@ const Slidy = () => {
           {ServiceData.map((_, index) => (
             <div
               key={index}
+              onClick={() => setcurrentSlide(index)}
               className={`w-[10px] rounded-full h-[10px] border-white border-2 gap-2 ${
                 currentSlide === index ? "bg-white" : "bg-black"
               }`}
