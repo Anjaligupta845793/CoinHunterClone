@@ -24,8 +24,8 @@ const Slidy = () => {
       <div className="max-w-[1260px] mx-auto text-center md:text-5xl px-5  text-3xl font-bold mb-20">
         <h1>People are loving to Use our Services</h1>
       </div>
-      <div className="max-w-[1260px] mx-auto px-5 bg-gradient-to-r from-slate-900/70 via-blue-700/20 to-bg-slate-600/60 pt-20 border-1 border-gray-500 rounded-lg">
-        <div className="grid grid-cols-[90%_10%] ">
+      <div className="max-w-[1260px] mx-auto px-5 bg-gradient-to-r from-slate-900/70 via-blue-700/30 to-bg-slate-600/60 pt-20 border-1 border-gray-500 rounded-lg">
+        <div className="grid grid-cols-[80%_10%] ">
           <div className="relative md:h-[190px] h-[210px] overflow-hidden">
             {ServiceData.map((item, index) => (
               <div
@@ -47,7 +47,7 @@ const Slidy = () => {
       flex 
       justify-center 
       gap-6 
-      max-w-[700px]
+      max-w-[600px]
     `}
               >
                 <div className="flex md:justify-start justify-center">
