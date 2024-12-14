@@ -19,7 +19,7 @@ const Signup = () => {
             Ready to Elevate Your Crypto Strategy?
           </h1>
 
-          <p className=" md:text-2xl text-xl font-bold mt-7 ">
+          <p className=" md:text-xl text-xl font-bold mt-7 ">
             Click below to embark on your CoinHunter journey. Sign up for free
             and transform your crypto investment experience with the power of
             AI.

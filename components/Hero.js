@@ -21,7 +21,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="py-10">
+        <div className="py-10 animate-bounce">
           <Image
             src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/66956f1253ac1ac1658ef296_gems%20trasparenza-p-1600.png"
             alt="image"

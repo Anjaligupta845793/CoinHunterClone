@@ -11,6 +11,8 @@ import FAQ from "@/components/FAQ";
 import Signup from "@/components/Signup";
 import Footer from "@/components/Footer";
 
+import Slidy from "@/components/Slidy";
+
 export default function Home() {
   return (
     <div>
@@ -22,6 +24,7 @@ export default function Home() {
       <FCards />
       <CryptoCards />
       <Premium />
+      <Slidy />
       <FAQ />
       <Signup />
       <Footer />

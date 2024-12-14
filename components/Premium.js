@@ -10,7 +10,7 @@ const Premium = () => {
           <h1 className="md:text-5xl text-4xl font-bold ">
             Choose Plan That’s Right ForYou
           </h1>
-          <p className="text-2xl pt-10">
+          <p className="text-2xl pt-10 transform translate-y-2">
             Choose plan that works best for you, feel free to contact us
           </p>
         </div>
@@ -75,7 +75,7 @@ const Premium = () => {
             </div>
           </div>
         ) : (
-          <div className="max-w-[700px] mx-auto grid my-10 ease-in duration-200 transition-transform  md:grid-cols-2 grid-cols-1 gap-4 px-7 ">
+          <div className="max-w-[900px] mx-auto grid my-10 ease-in duration-200 transition-transform  md:grid-cols-2 grid-cols-1 gap-4 px-7 ">
             <div className="p-5 border-2 border-gray-400 py-10 bg-gradient-to-t from-slate-800/50 to-slate-800/50 rounded-lg">
               <div className=" border-b-2 border-gray-600 pb-5">
                 <h1 className="text-4xl">Shrim Plan</h1>
