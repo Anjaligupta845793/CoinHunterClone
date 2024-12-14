@@ -26,7 +26,7 @@ const Slidy = () => {
       </div>
       <div className="max-w-[1260px] mx-auto px-5 bg-gradient-to-r from-slate-900/70 via-blue-700/30 to-bg-slate-600/60 pt-20 border-1 border-gray-500 rounded-lg">
         <div className="grid grid-cols-[80%_10%] ">
-          <div className="relative md:h-[190px] h-[210px] overflow-hidden">
+          <div className="relative md:h-[290px] h-[210px] overflow-hidden">
             {ServiceData.map((item, index) => (
               <div
                 key={index}
@@ -50,13 +50,13 @@ const Slidy = () => {
       max-w-[600px]
     `}
               >
-                <div className="flex md:justify-start justify-center">
+                <div className="flex md:justify-start justify-center md:w-[620px] ">
                   <Image
                     src={item.image}
                     alt="image"
                     width={300}
                     height={200}
-                    className="mx-auto"
+                    className="mx-auto rounded-lg"
                   />
                 </div>
                 <div className="flex flex-col justify-between md:gap-10 gap-5">
@@ -75,7 +75,7 @@ const Slidy = () => {
             <MdOutlineKeyboardArrowRight size={40} />
           </div>
         </div>
-        <div className="flex gap-2 justify-center my-20 pb-10">
+        <div className="flex gap-2 justify-center  pb-10">
           {ServiceData.map((_, index) => (
             <div
               key={index}
