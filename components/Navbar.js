@@ -4,7 +4,17 @@ import Link from "next/link";
 import { IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
-  const [nav, setnav] = useState(false); // Change initial state to false
+  const [nav, setNav] = useState(false); // Change initial state to false
+
+  // Handle mobile menu toggle
+  const handleMenuToggle = () => {
+    setNav(!nav);
+  };
+
+  // Close the mobile menu when a link is clicked
+  const closeMenu = () => {
+    setNav(false);
+  };
 
   return (
     <div className="bg-black text-white">
@@ -13,10 +23,10 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <ul className="md:flex hidden gap-7 border border-gray-800 rounded-3xl px-6 p-2">
-          <Link href="/Home">Home</Link>
-          <Link href="/Product">Product</Link>
-          <Link href="/Pricing">Pricing</Link>
-          <Link href="/Contact">Contact</Link>
+          <Link href="#Home">Home</Link>
+          <Link href="#Product">Product</Link>
+          <Link href="#Pricing">Pricing</Link>
+          <Link href="#Contact">Contact</Link>
         </ul>
 
         {/* Desktop Buttons */}
@@ -31,7 +41,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden flex mr-4">
-          <IoMenu size={30} onClick={() => setnav(!nav)} />
+          <IoMenu size={30} onClick={handleMenuToggle} />
         </div>
       </div>
 
@@ -46,22 +56,22 @@ const Navbar = () => {
         <div className="w-full">
           <ul className="px-10 gap-10 flex flex-col justify-center text-center py-8 space-y-4">
             <li>
-              <Link href="/Home" className="block py-2">
+              <Link href="#Home" className="block py-2" onClick={closeMenu}>
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/Product" className="block py-2">
+              <Link href="#Product" className="block py-2" onClick={closeMenu}>
                 Product
               </Link>
             </li>
             <li>
-              <Link href="/Pricing" className="block py-2">
+              <Link href="#Pricing" className="block py-2" onClick={closeMenu}>
                 Pricing
               </Link>
             </li>
             <li>
-              <Link href="/Contact" className="block py-2">
+              <Link href="#Contact" className="block py-2" onClick={closeMenu}>
                 Contact
               </Link>
             </li>

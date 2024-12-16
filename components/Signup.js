@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Signup = () => {
   return (
-    <div className="bg-color-black text-white px-4 md:py-20  ">
+    <div className="bg-color-black text-white px-4 md:py-20  " id="Contact">
       <div className="max-w-[1260px] relative mx-auto grid md:grid-cols-[60%_40%] px-4 py-9 bg-gradient-to-br to-blue-400 via-blue-500 border-r-1 border-b-1 border-gray-600 rounded-xl from-blue-500">
         <div className="py-7 order-1 md:order-2">
           <Image

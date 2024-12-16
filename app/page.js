@@ -24,7 +24,7 @@ export default function Home() {
       <BiggWin />
       <FCards />
       <CryptoCards />
-      <Premium />
+      <Premium id="Pricing" />
       <Slidy />
       <FAQ />
       <Signup />

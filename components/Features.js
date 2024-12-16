@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white" id="Product">
       <div className=" max-w-[1260px] mx-auto ">
         <h1 className="md:text-5xl sm-text-4xl text-3xl max-w-[800px] text-center font-bold py-2 mx-auto ">
           Empower Your Crypto Investment Strategy with CoinHunter

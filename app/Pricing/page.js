@@ -1,7 +1,8 @@
 import React from "react";
+import Premium from "@/components/Premium";
 
 const page = () => {
-  return <div>this is Pricing page</div>;
+  return <Premium />;
 };
 
 export default page;

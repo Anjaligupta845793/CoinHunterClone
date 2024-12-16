@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const Premium = () => {
   const [Price, setPrice] = useState("true");
   return (
-    <div className="bg-black text-white py-20">
+    <div className="bg-black text-white py-20" id="Pricing">
       <div className="max-w-[1260px] mx-auto px-5 mt-10">
         <div className="max-w-[500px] mx-auto  text-center py-20">
           <h1 className="md:text-5xl text-4xl font-bold ">
