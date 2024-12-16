@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="bg-color-black text-white  ">
-      <div className="max-w-[1260px] relative mx-auto grid md:grid-cols-[60%_40%] px-4 md:py-28 py-20 bg-gradient-to-br from-black via-black border-r-1 border-b-1 border-gray-600 rounded-lg to-blue-500">
+      <div className="max-w-[1260px] relative mx-auto grid md:grid-cols-[60%_40%] px-4 md:py-28 py-[90px] bg-gradient-to-br from-black via-black border-r-1 border-b-1 border-gray-600 rounded-lg to-blue-500">
         <div className="">
           <h1 className="md:text-6xl text-5xl space-x-2 space-y-4 font-semibold">
             Discover the Next Crypto Gem Provided By AI
@@ -21,13 +21,14 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="py-10 animate-bounce">
+        <div className="py-20 h-full relative">
           <Image
             src="https://cdn.prod.website-files.com/65f46cb06dc2aecf0f68075c/66956f1253ac1ac1658ef296_gems%20trasparenza-p-1600.png"
             alt="image"
-            width={300}
-            height={600}
-            className="mx-auto"
+            layout="responsive"
+            width={1200}
+            height={5000}
+            className="mx-auto  pt-14 absolute top-8 left-6 md:max-w-[400px]  max-w-[248px] transform animate-float-scale"
           />
         </div>
       </div>

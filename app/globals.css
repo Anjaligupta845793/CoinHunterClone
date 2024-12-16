@@ -19,3 +19,27 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(2);
+  }
+  50% {
+    transform: translateY(-60px) scale(2);
+  }
+  100% {
+    transform: translateY(0) scale(2);
+  }
+}
+
+.animate-float-scale {
+  animation: float 3s ease-in-out infinite;
+}
+/* Hide scrollbars for Webkit browsers (Chrome, Safari) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbars for Firefox */
+.no-scrollbar {
+  scrollbar-width: none;
+}

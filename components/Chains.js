@@ -14,15 +14,15 @@ const Chains = () => {
             className="flex px-10 py-6 items-center border-2 border-gray-800 rounded-lg "
             key={index}
           >
-            <div className="w-[40px] h-[40px]">
+            <div className="min-w-[40px] min-h-[40px] relative">
               <Image
                 src={item.image}
                 alt={item.name}
-                width={10} // Set the width according to your needs
-                height={10} // Set the height according to your needs
-                layout="responsive" // Optional: Makes the image responsive
+                layout="fill" // Makes the image fill the parent div
+                objectFit="contain" // Ensures the image maintains its aspect ratio
               />
             </div>
+
             <p className="ml-3">{item.name}</p>
           </div>
         ))}

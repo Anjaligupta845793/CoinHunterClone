@@ -17,13 +17,13 @@ const Features = () => {
           className="max-w-[1260px] mx-auto px-20 py-20 relative md:my-40 my-20  "
         >
           <div
-            className="md:w-[230px] md:h-[230px] left-[20px]  w-[350px] h-[350px] absolute md:left-[470px] md:top-[60px] blur-xl  rounded-full"
+            className="md:w-[230px] md:h-[230px] left-[20px]  w-[350px] h-[350px] absolute md:left-[510px] md:top-[45px] blur-xl  rounded-full"
             style={{
               background:
                 "radial-gradient(circle, rgba(59,130,246,0.5) 1%, black 100%)",
             }}
           ></div>
-          <div className="max-w-[450px] mx-auto px-10 text-center  py-10 absolute md:left-[350px] md:top-[60px] top-[55px] z-20 left-[-10px] ">
+          <div className="max-w-[450px] mx-auto px-10 text-center  py-10 absolute md:left-[407px] md:top-[60px] top-[55px] z-20 left-[-10px] ">
             <div className="w-[100px] h-[100px] mx-auto ">
               <Image
                 src={item.image}
@@ -43,7 +43,7 @@ const Features = () => {
               Try Now
             </button>
           </div>
-          <div className="p-2 grid md:grid-cols-6 sm:grid-cols-4 grid-cols-3 max-w-[1000px] opacity-100 gap-3  ">
+          <div className="p-2 grid md:grid-cols-6 sm:grid-cols-4 grid-cols-3 max-w-[1000px] opacity-100 gap-3 mx-auto ">
             {data.map((item, index) => (
               <p
                 className="p-3 border-2  text-gray-800 border-gray-900 rounded-full text-center overflow-hidden "
